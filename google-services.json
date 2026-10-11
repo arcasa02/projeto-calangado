@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1000619277663",
+    "project_id": "projeto-calangado-34f92",
+    "storage_bucket": "projeto-calangado-34f92.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000619277663:android:0011e1f2d1129121178aea",
+        "android_client_info": {
+          "package_name": "calangado.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTO1uKGupyKmJpcrD_DZdt-e2DF9iK9Fg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000619277663:android:5df928d1100e7677178aea",
+        "android_client_info": {
+          "package_name": "com.projeto.calangado"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTO1uKGupyKmJpcrD_DZdt-e2DF9iK9Fg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

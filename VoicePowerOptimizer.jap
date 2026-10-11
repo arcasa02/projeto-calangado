@@ -1,0 +1,4 @@
+VoicePowerOptimizer optimizer = new VoicePowerOptimizer();
+startForeground(101, optimizer.createForegroundNotification(this));
+optimizer.acquireWakeLock(this);
+CalangadoLogger.i("SERVICE_INIT", "Módulo de energia e escuta contínua sincronizados.");
