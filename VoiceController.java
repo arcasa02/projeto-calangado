@@ -29,6 +29,7 @@ Log.d("VoiceController", "Speech has ended");
 Log.d("VoiceController", "System is ready for speech");
 @Override public void onRmsChanged(float rmsdB) {
 Log.d("VoiceController", "RMS: " + rmsDb);
+}
 
 
 
