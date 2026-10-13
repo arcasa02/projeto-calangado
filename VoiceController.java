@@ -25,5 +25,7 @@ Log.d("VoiceController", "Speech has begun");
 }
 @Override public void onEndOfSpeech() {
 Log.d("VoiceController", "Speech has ended");
+@Override public void onReadyForSpeech(Bundle params) {
+
 
 
