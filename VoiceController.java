@@ -19,4 +19,5 @@ Intent intent = new Intent(context, MainActivity.class);
 context.startActivity(Intent); }
 @Override public void onError (int error) { 
 Toast.makeText(context, "Erro no reconhecimento de voz", Toast.LENGTH_SHORT).show();
+}
 
