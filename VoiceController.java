@@ -8,3 +8,4 @@ VoiceController implements RecognitionListener {
 private SpeechRecognizer speechRecognizer;
 private Context context;
 public VoiceController(Context context) { this.context = context; }
+public void initSpeechRecognizer() {
