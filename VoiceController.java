@@ -12,3 +12,4 @@ public void initSpeechRecognizer() {
 speechRecognizer = SpeechRecognizer.createSpeechRecognizer(context);
 speechRecognizer.setRecognitionListener(this);
 @Override public void onReadyForSpeech(Bundle params) {
+@Override public void onResults(Bundle results) {
