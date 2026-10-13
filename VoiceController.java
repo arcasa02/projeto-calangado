@@ -14,3 +14,4 @@ speechRecognizer.setRecognitionListener(this);
 @Override public void onReadyForSpeech(Bundle params) {
 @Override public void onResults(Bundle results) {
 ArrayList<String> matches = results.getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION);
+if (matches != null && !matches.isEmpty() && matches.get(0).equals("abrir app")) {
