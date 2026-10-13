@@ -6,3 +6,4 @@ import android.os.Bundle;
 import android.speech.RecognitionListener;
 VoiceController implements RecognitionListener {
 private SpeechRecognizer speechRecognizer;
+private Context context;
