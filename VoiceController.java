@@ -16,5 +16,5 @@ speechRecognizer.setRecognitionListener(this);
 ArrayList<String> matches = results.getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION);
 if (matches != null && !matches.isEmpty() && matches.get(0).equals("abrir app")) {
 Intent intent = new Intent(context, MainActivity.class);
-context.startActivity
+context.startActivity(Intent); }
 
