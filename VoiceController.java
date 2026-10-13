@@ -23,4 +23,5 @@ Toast.makeText(context, "Erro no reconhecimento de voz", Toast.LENGTH_SHORT).sho
 @Override public void onBeginningOfSpeech() {
 Log.d("VoiceController", "Speech has begun");
 }
+@Override public void onEndOfSpeech() {
 
