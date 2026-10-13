@@ -28,6 +28,7 @@ Log.d("VoiceController", "Speech has ended");
 @Override public void onReadyForSpeech(Bundle params) {
 Log.d("VoiceController", "System is ready for speech");
 @Override public void onRmsChanged(float rmsdB) {
+Log.d("VoiceController", "RMS: " + rmsDb);
 
 
 
