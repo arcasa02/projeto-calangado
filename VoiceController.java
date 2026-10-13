@@ -21,4 +21,5 @@ context.startActivity(Intent); }
 Toast.makeText(context, "Erro no reconhecimento de voz", Toast.LENGTH_SHORT).show();
 }
 @Override public void onBeginningOfSpeech() {
+Log.d("VoiceController", "Speech has begun");
 
